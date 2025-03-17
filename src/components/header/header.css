@@ -1,0 +1,14 @@
+header{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.logo{
+    height: 128px;
+}
+
+header h3{
+    font-size: 22px;
+    margin: 0;
+}
+

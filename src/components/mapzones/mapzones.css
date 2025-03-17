@@ -1,0 +1,16 @@
+
+.map{
+    min-width: 1240px;
+    max-width: 1440px;
+    margin: auto;
+}
+
+
+.map-container{
+    height: 600px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+
+

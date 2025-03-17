@@ -1,0 +1,45 @@
+.zonecard{
+    width: 320px;
+    background-color: white;
+    box-shadow: 1px 1px 12px -5px black;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.zonecard h3{
+    font-size: 180px;
+    line-height: 184px;
+    margin: 0;
+    color: #1B2671;
+}
+
+.zonecard p{
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 700;
+    margin: 0 25px;
+}
+
+.zonecard-underline{
+    height: 1px;
+    background-color: black;
+    width: 80%;
+}
+
+.zonecard h4{
+    font-size: 40px;
+    margin: 5px;
+}
+
+.zonecard-back-image{
+    position: absolute;
+    bottom: 0;
+    width: 320px;
+    border-radius: 0 0 25px 25px;
+}

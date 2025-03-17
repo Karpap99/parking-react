@@ -1,13 +1,29 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "DniproCity";
+  height: 100%;
+  background: linear-gradient(to bottom, #0053AD20, transparent);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+@font-face {
+  font-family: 'DniproCity';
+  src: url('./assets/fonts/DniproCity/DniproCity-Bold.eot');
+  src: local('DniproCity Bold'), local('DniproCity-Bold'),
+      url('./assets/fonts/DniproCity/DniproCity-Bold.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/DniproCity/DniproCity-Bold.woff') format('woff'),
+      url('./assets/fonts/DniproCity/DniproCity-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'DniproCity';
+  src: url('./assets/fonts/DniproCity/DniproCity-Regular.eot');
+  src: local('DniproCity Regular'), local('DniproCity-Regular'),
+      url('./assets/fonts/DniproCity/DniproCity-Regular.eot?#iefix') format('embedded-opentype'),
+      url('./assets/fonts/DniproCity/DniproCity-Regular.woff') format('woff'),
+      url('./assets/fonts/DniproCity/DniproCity-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }

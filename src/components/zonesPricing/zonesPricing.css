@@ -1,0 +1,19 @@
+.zonecard-grid{
+    display: grid;
+    margin: auto;
+    grid-gap: 20px;
+    grid-template-columns: auto auto auto;
+    
+}
+
+.zonespricing{
+    max-width: 1024px;
+    margin: auto;
+}
+
+
+.zonespricing-undertext{
+    font-size: 24px;
+    margin: 3px 0px;
+    font-weight: 700;
+}

@@ -1,0 +1,7 @@
+.functions_cards{
+    display: grid;
+    grid-template-columns: 1fr auto auto auto 1fr;
+    grid-gap: 10px;
+}
+
+
